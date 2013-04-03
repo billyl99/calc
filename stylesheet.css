@@ -1,3 +1,18 @@
 #equationList {
     list-style-type: none;
 }
+
+#left {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+}
