@@ -2,14 +2,19 @@
     list-style-type: none;
 }
 
-#left {
+#left, #right{
     float: left;
+	padding: 10px;
 }
 
 li {
     float: left;
+	cursor: hand; cursor: pointer;
 }
 
+#variableList input{
+	text-align: right;
+}
 
 .highlighted {
     -webkit-box-shadow: 0 0 8px #FFD700;
